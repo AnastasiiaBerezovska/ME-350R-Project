@@ -11,4 +11,9 @@ Our goal is to build a robotic waiter that can carry snacks and drinks to a user
 The primary control mode will be remote control. As an extension, we plan to add computer vision so the robot can respond to a user's hand wave and move toward them.
 
 ### Initial Jansen Linkage Simulation:
-![Initial Linkage Simulation](./Python/jansenlinkagesim.gif)
+![Initial Linkage Simulation](./Python/jansenlinkagesim.gif) <br>
+
+### Intial Jansen Linkage 3D Print:
+![Initial Linkage Print](/CAD/jansenlinkage3Dprint.jpeg) <br>
+
+Initially printed with PETG to serve as a physical verification of the proof of concept
