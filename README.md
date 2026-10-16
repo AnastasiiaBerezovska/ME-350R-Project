@@ -10,6 +10,8 @@ Members: Anastasiia Brund, Peter Nguyen, Pablo Pena
 Our goal is to build a robotic waiter that can carry snacks and drinks to a user. The proposed robot combines a walking mechanism with a tray mounted above the chassis, with an emphasis on smooth, stable motion to reduce spills and keep the payload secure.
 The primary control mode will be remote control. As an extension, we plan to add computer vision so the robot can respond to a user's hand wave and move toward them.
 
+[BOM](https://docs.google.com/spreadsheets/d/16ZARARR6a1qfLJMSYsjxh-cHdoF95DUiiNxAMhKOWgo/edit?usp=sharing)
+
 ### Initial Jansen Linkage Simulation
 <img src="./Python/jansenlinkagesim.gif" alt="Initial Linkage Simulation" width="450">
 
