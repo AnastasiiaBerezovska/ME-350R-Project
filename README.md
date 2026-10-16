@@ -13,9 +13,13 @@ The primary control mode will be remote control. As an extension, we plan to add
 [BOM](https://docs.google.com/spreadsheets/d/16ZARARR6a1qfLJMSYsjxh-cHdoF95DUiiNxAMhKOWgo/edit?usp=sharing)
 
 ### Initial Jansen Linkage Simulation
-<img src="./Python/jansenlinkagesim.gif" alt="Initial Linkage Simulation" width="450">
+<img src="./Python/PythonImages/jansenlinkagesim.gif" alt="Initial Linkage Simulation" width="450">
+
+### Python Synthesis
+<img src="./Python/PythonImages/targetpath.png" alt="Initial Linkage Simulation" width="450">
+<img src="./Python/PythonImages/jansenpython.png" alt="Initial Linkage Simulation" width="450">
 
 ### Initial Jansen Linkage 3D Print
-<img src="./CAD/jansenlinkage3Dprint.jpeg" alt="Initial Linkage Print" width="450">
+<img src="./CAD/CADImages/jansenlinkage3Dprint.jpeg" alt="Initial Linkage Print" width="450">
 
 Initially printed with PETG to serve as a physical verification of the proof of concept
