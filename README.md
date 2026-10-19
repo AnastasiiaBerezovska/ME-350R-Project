@@ -17,7 +17,7 @@ The primary control mode will be remote control. As an extension, we plan to add
 
 ### Python Synthesis
 <img src="./Python/PythonImages/targetpath.png" alt="Initial Linkage Simulation" width="450">
-<img src="./Python/PythonImages/jansenpython.png" alt="Initial Linkage Simulation" width="450">
+<img src="./Python/PythonImages/pythonsim.gif" alt="Initial Linkage Simulation" width="450">
 
 ### Initial Jansen Linkage 3D Print
 <img src="./CAD/CADImages/jansenlinkage3Dprint.jpeg" alt="Initial Linkage Print" width="450">
