@@ -15,11 +15,17 @@ The primary control mode will be remote control. As an extension, we plan to add
 ### Initial Jansen Linkage Simulation
 <img src="./Python/PythonImages/jansenlinkagesim.gif" alt="Initial Linkage Simulation" width="450">
 
-### Python Synthesis
-<img src="./Python/PythonImages/targetpath.png" alt="Initial Linkage Simulation" width="450">
-<img src="./Python/PythonImages/pythonsim.gif" alt="Initial Linkage Simulation" width="450">
-
 ### Initial Jansen Linkage 3D Print
 <img src="./CAD/CADImages/jansenlinkage3Dprint.jpeg" alt="Initial Linkage Print" width="450">
 
-Initially printed with PETG to serve as a physical verification of the proof of concept
+### Initial Jansen Linkage 3D Print Motion Test
+
+We initially printed with PETG to physically validate the proof of concept. We needed a way to ground the link during the motion test. Coincidentally, we found a  pizza box outside, which was perfect for testing (perfect for the theme of a food delivery robot, no?). The joints were a bit stiff during testing due to some incorrect tolerancing issues with the 3D-printed pin joints, and our input crank didn't yield perfectly controlled motion since the user would manually turn the crank, attempting to approximate circular motion.
+<img src="./CAD/CADImages/bindingtest.gif" alt ="Binding Test" width="450">
+
+### Python Synthesis
+
+Moving from this, we created a Python optimization program that takes my starting dimensions and adjusts the link lengths so the foot hits seven target points along a 70 mm stance, while also keeping the joint angles in a range where the mechanism won’t bind. It brought the path error from the initial design down from about 7 mm to under 2 mm.
+
+<img src="./Python/PythonImages/targetpath.png" alt="Initial Linkage Simulation" width="450">
+<img src="./Python/PythonImages/pythonsim.gif" alt="Initial Linkage Simulation" width="450">
