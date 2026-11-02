@@ -21,6 +21,8 @@ The primary control mode will be remote control. As an extension, we plan to add
 ### Initial Jansen Linkage 3D Print Motion Test
 
 We initially printed with PETG to physically validate the proof of concept. We needed a way to ground the link during the motion test. Coincidentally, we found a  pizza box outside, which was perfect for testing (perfect for the theme of a food delivery robot, no?). The joints were a bit stiff during testing due to some incorrect tolerancing issues with the 3D-printed pin joints, and our input crank didn't yield perfectly controlled motion since the user would manually turn the crank, attempting to approximate circular motion.
+
+
 <img src="./CAD/CADImages/bindingtest.gif" alt ="Binding Test" width="450">
 
 ### Python Synthesis
