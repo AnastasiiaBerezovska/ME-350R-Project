@@ -1,0 +1,176 @@
+{
+  "units": "mm",
+  "source_archive": "CAD-20261119T055155Z-1-001.zip",
+  "native_link_parts": [
+    {
+      "part": "L2 Triangle",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        55.903,
+        66.584,
+        87.122
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "L4 Vertical Connecting Piece idk fix this",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        103.099
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "L5 upper diagonal link",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        115.672
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "L6 left connecting link",
+      "source": "SolidWorks geomy",
+      "hole_spacings_mm": [
+        95.834
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "L7 Lower Triangle",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        68.25,
+        75.54,
+        109.957
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "L8 lower diagonal link",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        105.143
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35
+      ]
+    },
+    {
+      "part": "spur gear_ CRANK",
+      "source": "SolidWorks geom",
+      "hole_spacings_mm": [
+        20.914
+      ],
+      "hole_diameters_mm": [
+        6.35,
+        6.35
+      ]
+    }
+  ],
+  "fixed_pivot_offset_mm": [
+    90.424,
+    20.0
+  ],
+  "backboards": {
+    "BACKBOARD": {
+      "size_mm": [
+        355.6,
+        114.3,
+        6.35
+      ]
+    },
+    "BACKBOARDV2": {
+      "size_mm": [
+        355.6,
+        88.9,
+        3.0
+      ]
+    },
+    "common_hole_centres_mm": [
+      [
+        -150.749,
+        20.0
+      ],
+      [
+        -60.325,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        60.325,
+        0
+      ],
+      [
+        150.749,
+        20.0
+      ]
+    ]
+  },
+  "variant_comparison": {
+    "STL exports / optimized A": {
+      "link_lengths_mm": {
+        "Oi": 20.914,
+        "ij": 96.788,
+        "Aj": 39.116,
+        "jk": 60.985,
+        "Ak": 74.151,
+        "kl": 124.584,
+        "Am": 72.169,
+        "lm": 49.406,
+        "im": 105.143,
+        "mn": 74.818,
+        "ln": 97.066
+      },
+      "full_cycle_toe_span_mm": [
+        78.77027701478933,
+        27.067252257781917
+      ],
+      "max_sampled_assembly_gap_mm": 0.0,
+      "minimum_selected_angle_deg": 40.499985574361816
+    },
+    "Native SolidWorks parts": {
+      "link_lengths_mm": {
+        "Oi": 20.914,
+        "ij": 115.672,
+        "Aj": 55.903,
+        "jk": 87.122,
+        "Ak": 66.584,
+        "kl": 95.834,
+        "Am": 103.099,
+        "lm": 68.25,
+        "im": 105.143,
+        "mn": 75.54,
+        "ln": 109.957
+      },
+      "full_cycle_toe_span_mm": [
+        89.00496082034257,
+        15.075700999164098
+      ],
+      "max_sampled_assembly_gap_mm": 0.0,
+      "minimum_selected_angle_deg": 28.506263298538236
+    }
+  },
+  "geometry_warning": "Idk what's going on with Solid Works and STL. As-built version not confirmed."
+}

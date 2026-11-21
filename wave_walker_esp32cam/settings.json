@@ -1,0 +1,21 @@
+{
+  "camera_index": 0,
+  "camera_width": 1280,
+  "camera_height": 720,
+  "marker_id": 7,
+  "marker_side_m": 0.12,
+  "marker_heading_offset_deg": 0.0,
+  "robot_radius_m": 0.35,
+  "stop_distance_m": 0.9,
+  "table_goal_tolerance_m": 0.04,
+  "max_travel_m": 2.0,
+  "max_trip_seconds": 45.0,
+  "no_progress_seconds": 3.0,
+  "max_frame_age_seconds": 0.25,
+  "person_motion_limit_m": 0.18,
+  "minimum_pwm": 65,
+  "maximum_pwm": 90,
+  "turn_pwm": 75,
+  "left_motor_sign": 1,
+  "right_motor_sign": 1
+}
